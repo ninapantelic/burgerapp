@@ -59,3 +59,40 @@
       grid-template-columns: 1fr;
     }
   }
+
+  #light {
+    background-color: #f3ebf6;
+  }
+
+  #dark {
+    background-color: #f3ebf6;
+  }
+
+  #light .menuItem {
+    background-color: #ffffff;
+  }
+
+  #dark .menuItem {
+    background-color: #0d5525;
+  }
+
+  .switch {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  .switch label {
+    margin: 30px;
+  }
+
+  #light .switch label {
+    color: black;
+  }
+
+  #dark .switch label {
+    color: rgb(0, 0, 0);
+  }
